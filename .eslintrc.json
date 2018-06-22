@@ -1,0 +1,16 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": [2, "never"]
+    },
+    "plugins": [
+        "flowtype",
+        "prettier"
+    ],
+    "extends": [
+        "plugin:flowtype/recommended"
+    ]
+}
